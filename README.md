@@ -13,11 +13,11 @@ Install using your package manager of choice.
 Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
-{
+return {
   'dickdavis/spec-split.nvim',
   config = function()
     require('spec_split').setup({})
-  end,
+  end
 }
 ```
 
@@ -68,4 +68,4 @@ require('spec_split').setup({
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The plugin is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
